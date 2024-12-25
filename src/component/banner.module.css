@@ -1,0 +1,46 @@
+.banner{
+    float: left;
+    width: 60%;
+    padding-left: 5px;
+    padding-right: 5px;
+    aspect-ratio: 321.08/165.73;
+    
+}
+
+.leftBanner{
+    float: left;
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+    aspect-ratio: 107.03/165.73;
+    object-fit: cover;
+}
+.rightBanner{
+    float: left;
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+    aspect-ratio: 107.03/165.73;
+    object-fit: cover;
+}
+
+
+/* moblie screen*/
+@media (max-width: 600px) {
+   .banner{
+        width: 100%;
+    }
+    
+    .leftBanner{
+        width: 0px;
+    }
+    .rightBanner{
+        width: 0px;
+    }
+}
+  
+
+.stepper{
+    float: left;
+    width: 100%;
+}

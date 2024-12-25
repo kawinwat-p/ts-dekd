@@ -1,0 +1,187 @@
+.hover{
+    width: 500px;
+    height: 333px;
+    aspect-ratio: 3/2;
+    display: flex;
+    justify-content: left;
+    margin-right: 3%;
+}
+
+.card{
+    width: 500px;
+    height: 333px;
+    aspect-ratio: 3/2;
+    display: flex;
+    justify-content: left;
+    margin-right: 3%;
+}
+
+.image{
+    width: 170px;
+    height: 84%;
+    aspect-ratio: 1/1.5;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.title{
+    margin-bottom: 4%;
+    align-self: start;
+    font-size: 30px;
+    display: inline;
+}
+
+.author{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+
+.list{
+    color: grey;
+    font-size: 20px;
+}
+
+.bookmark{
+    display: block;
+    color: grey;
+    line-height: 3;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    font-family: Krarok;
+    margin-left: 8%;
+    width: 400px;
+}
+
+.fiction{
+    font-size: 50px;
+    margin-left: 10%;
+    font-family: Krarok;
+}
+
+.count{
+    font-size: 30px;
+    margin-left: 10%;
+    color: grey;
+    margin-top: 45px;
+    font-family: Krarok;
+}
+
+.catalog{
+    margin:20px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left: 10%;
+}
+
+.edit{
+    float: right;
+    width: 110px;
+    font-family: Krarok;
+    margin-right: 20%;
+    background-color: white;
+    padding: 10px;
+    border: 1px rgb(182, 182, 182);
+    border-style: solid;
+    border-radius: 100px;
+    font-size: 25px;
+    color: grey;
+    margin-top: 25px;
+}
+
+.edit:hover{
+    background-color: rgb(252, 224, 194);
+    color: rgb(238, 155, 61);
+    border: transparent;
+}
+
+.cancel{
+    float: right;
+    font-family: Krarok;
+    margin-right: 2%;
+    width: 120px;
+    background-color: white;
+    padding: 10px;
+    border: 1px rgb(182, 182, 182);
+    border-style: solid;
+    border-radius: 100px;
+    font-size: 25px;
+    color: grey;
+    margin-top: 25px;
+
+}
+
+.cancel:hover{
+    background-color: rgb(252, 224, 194);
+    color: rgb(238, 155, 61);
+    border: transparent;
+}
+
+/* moblie screen*/
+@media (max-width: 1000px) {
+    .edit{
+        margin-right: 5%;
+        width: 80px;
+    }
+    .cancel{
+        margin-right: 2%;
+        width: 80px;
+    }
+    .count{
+        font-size: 23px;
+    }
+ }
+   
+.checkbox{
+    margin-top: 50px;
+    margin-right: 10px;
+    height: 28px;
+    width: 34px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid rgb(249, 157, 51);
+    appearance: none;
+    cursor: pointer;
+}
+
+.checkbox:checked{
+    background-color: rgb(238, 155, 61);
+    border: 1px solid rgb(238, 155, 61);
+}
+
+.popupTitle{
+    font-size: 35px;
+    margin-left: 4%;
+    margin-top: 4%;
+    font-family: Krarok;
+}
+
+.add{
+     float: right;
+    font-family: Krarok;
+    margin-right: 10%;
+    width: 120px;
+    background-color: white;
+    padding: 10px;
+    border: 1px rgb(182, 182, 182);
+    border-style: solid;
+    border-radius: 100px;
+    font-size: 25px;
+    color: grey;
+    margin-top: 25px;
+}
+
+.add:hover{
+    background-color: rgb(252, 224, 194);
+    color: rgb(238, 155, 61);
+    border: transparent;
+}
